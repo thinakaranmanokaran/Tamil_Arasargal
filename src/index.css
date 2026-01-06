@@ -1,0 +1,273 @@
+@import "tailwindcss";
+
+/* =========================
+   Anek Tamil Font
+   ========================= */
+
+@font-face {
+    font-family: "Anek";
+    src: url("/src/assets/fonts/anek/AnekTamil-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Anek";
+    src: url("/src/assets/fonts/anek/AnekTamil-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Anek";
+    src: url("/src/assets/fonts/anek/AnekTamil-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Anek";
+    src: url("/src/assets/fonts/anek/AnekTamil-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Anek";
+    src: url("/src/assets/fonts/anek/AnekTamil-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Anek";
+    src: url("/src/assets/fonts/anek/AnekTamil-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Anek";
+    src: url("/src/assets/fonts/anek/AnekTamil-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Anek";
+    src: url("/src/assets/fonts/anek/AnekTamil-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* =========================
+   Arima Font
+   ========================= */
+
+@font-face {
+    font-family: "Arima";
+    src: url("/src/assets/fonts/arima/Arima-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Arima";
+    src: url("/src/assets/fonts/arima/Arima-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Arima";
+    src: url("/src/assets/fonts/arima/Arima-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Arima";
+    src: url("/src/assets/fonts/arima/Arima-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Arima";
+    src: url("/src/assets/fonts/arima/Arima-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Arima";
+    src: url("/src/assets/fonts/arima/Arima-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Arima";
+    src: url("/src/assets/fonts/arima/Arima-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* =========================
+   Satoshi Font
+   ========================= */
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/satoshi/Satoshi-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/satoshi/Satoshi-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/satoshi/Satoshi-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/satoshi/Satoshi-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/satoshi/Satoshi-Black.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* ---- Italics ---- */
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/satoshi/Satoshi-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/satoshi/Satoshi-LightItalic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/satoshi/Satoshi-MediumItalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/satoshi/Satoshi-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("/src/assets/fonts/satoshi/Satoshi-BlackItalic.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* =========================
+   Noto Sans Tamil Font
+   ========================= */
+
+@font-face {
+    font-family: "Noto";
+    src: url("/src/assets/fonts/noto/NotoSansTamil-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto";
+    src: url("/src/assets/fonts/noto/NotoSansTamil-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto";
+    src: url("/src/assets/fonts/noto/NotoSansTamil-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto";
+    src: url("/src/assets/fonts/noto/NotoSansTamil-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto";
+    src: url("/src/assets/fonts/noto/NotoSansTamil-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto";
+    src: url("/src/assets/fonts/noto/NotoSansTamil-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto";
+    src: url("/src/assets/fonts/noto/NotoSansTamil-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto";
+    src: url("/src/assets/fonts/noto/NotoSansTamil-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto";
+    src: url("/src/assets/fonts/noto/NotoSansTamil-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* =========================
+   Tailwind Theme Config
+   ========================= */
+
+@theme {
+    --font-anek: "Anek", sans-serif;
+    --font-arima: "Arima", sans-serif;
+    --font-satoshi: "Satoshi", sans-serif;
+    --font-noto: "Noto", sans-serif;
+
+    --color-dark: #0C0C0C;
+    --color-gold: #FFB200;
+    --color-gold-yellow: #FB8B24;
+}
