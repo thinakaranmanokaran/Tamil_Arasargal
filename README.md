@@ -1,7 +1,7 @@
 # 🏛️ Rulers of Ancient Tamizhagam
 
 <p align="center">
-  <img src="https://thinakaranmanokaran.github.io/Tamil_Arasargal/logo.png" alt="Rulers of Ancient Tamizhagam Logo" width="140" />
+  <img src="https://thinakaranmanokaran.github.io/Tamil_Arasargal/logo.png" alt="Rulers of Ancient Tamizhagam Logo" width="300" />
 </p>
 
 <p align="center">
