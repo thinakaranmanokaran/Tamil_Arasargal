@@ -35,13 +35,13 @@ const LandingPage = ({ lang }) => {
             />
             <div className="flex justify-center min-h-screen relative z-10 items-center ">
                 <div className=" md:max-w-3/5 flex flex-col items-center">
-                    <h1 className="font-anek text-nowrap text-center font-bold text-3xl md:text-4xl xl:text-6xl leading-normal bg-gradient-to-r  from-gold-yellow to-gold bg-clip-text text-transparent">
+                    <h1 className="font-anek md:text-nowrap text-center font-bold text-3xl md:text-4xl xl:text-6xl leading-normal bg-gradient-to-r  from-gold-yellow to-gold bg-clip-text text-transparent">
                         {lang === "ta"
                             ? "பழந்தமிழகத்தை ஆண்ட அரசர்கள்"
                             : "Rulers Who Governed Ancient Tamizhagam"}
                     </h1>
 
-                    <p className="mt-4 text-lg font-normal font-arima leading-relaxed max-w-4/5 text-center text-white/50">
+                    <p className="mt-4 md:text-lg font-normal font-arima leading-relaxed px-1 md:px-0 md:max-w-4/5 text-center text-white/50">
                         {lang === "ta" ? (
                             <>
                                 பழந்தமிழகம் அரசியல், பண்பாடு, வணிகம், கலை மற்றும் போர்முனை ஆகியவற்றில்
@@ -61,7 +61,7 @@ const LandingPage = ({ lang }) => {
                         )}
                     </p>
 
-                    <div className="mt-6 text-xl font-medium italic font-satoshi">
+                    <div className="mt-6 px-1 md:px-0 md:text-xl font-medium italic font-satoshi">
                         {lang === "ta" ? (
                             <>
                                 “நாடா கொன்றோ? காடா கொன்றோ?
