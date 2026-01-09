@@ -17,13 +17,13 @@ const LandingPage = ({ lang }) => {
 
     return (
         <div className=" relative h-full overflow-hidden">
-            <img src={images.LandBG} className="h-screen absolute z-0 w-screen object-center object-cover pointer-events-none" alt="" />
+            <img src={images.LandBG} className="h-screen absolute z-0 w-screen object-center object-cover pointer-events-none" alt="Backaground Image" loading='lazy' />
             {/* Right Image */}
             <motion.img
                 src={images.LandRight}
                 style={{ x: rightX }}
                 className="absolute z-20 right-0 w-screen h-screen pointer-events-none hidden md:block"
-                alt=""
+                alt="Decoration Image" loading='lazy'
             />
 
             {/* Left Image */}
@@ -31,7 +31,7 @@ const LandingPage = ({ lang }) => {
                 src={images.LandLeft}
                 style={{ x: leftX }}
                 className="absolute z-30 left-0 w-screen h-screen pointer-events-none hidden md:block"
-                alt=""
+                alt="Decoration Image" loading='lazy'
             />
             <div className="flex justify-center min-h-screen relative z-10 items-center ">
                 <div className=" md:max-w-3/5 flex flex-col items-center">

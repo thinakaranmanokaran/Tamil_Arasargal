@@ -67,8 +67,8 @@ const Home = () => {
     }
 
     return (
-        <div className=" min-h-screen bg-dark text-white selection:bg-gold/10 overflow-hidden">
-            <UseSmoothScroll speed={1.5} />
+        <div className=" min-h-screen bg-dark text-white selection:bg-gold/10">
+            <UseSmoothScroll speed={0.9} />
             <LandingPage lang={lang} />
             <div className="absolute top-[100vh] w-full bg-gradient-to-b from-black to-transparent h-20 left-0" />
             <Timeline data={timelineData} />
